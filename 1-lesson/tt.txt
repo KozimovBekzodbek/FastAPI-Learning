@@ -1,0 +1,17 @@
+FastApi - python frameworki bo'lib unda API chiqarish maqsadida foydalanishadi
+Uni run qilish uchun "uvicorn" kutubxonasi ham yuklanadi
+
+
+loyiha bitta python fayl ichida yoziladi logika endpointlar hammasi 
+
+bitta FastApi classidan object yaratib olamiz o'zgaruvchi nomini app deb nomlab qo'yamiz.
+
+ shablon quyidagicha   wrap qilinadi decorator yasab davom etamiz
+
+
+
+ @app.get("/")
+ def root():
+     return {"name":"Bekzdobek"}
+
+
